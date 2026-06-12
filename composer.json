@@ -1,0 +1,17 @@
+{
+  "name": "yourname/chris",
+  "description": "Safe WordPress Composer install on WAMP",
+  "type": "project",
+  "require": {
+    "johnpbloch/wordpress-core": "^6.8",
+    "johnpbloch/wordpress-core-installer": "^2.0"
+  },
+  "extra": {
+    "wordpress-install-dir": "web/wp"
+  },
+  "config": {
+    "allow-plugins": {
+      "johnpbloch/wordpress-core-installer": true
+    }
+  }
+}

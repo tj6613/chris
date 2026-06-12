@@ -1,0 +1,12 @@
+/*
+Theme Name: All Bikes Vault
+Theme URI: http://allbikesvault
+Author: Chris
+Description: Custom WordPress theme for All Bikes Vault.
+Version: 1.0
+Text Domain: allbikesvault
+*/
+body{margin:0;font-family:Arial,sans-serif;background:#f7f7f7;color:#222;}
+.site-header{background:#111;color:#fff;padding:20px;}
+.site-header a{color:#fff;text-decoration:none;}
+.container{width:90%;max-width:1200px;margin:0 auto;}
