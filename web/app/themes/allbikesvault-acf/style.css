@@ -1,0 +1,47 @@
+/*
+Theme Name: All Bikes Vault ACF
+Theme URI: http://allbikesvault
+Author: Chris
+Description: Bootstrap 4 WordPress theme for All Bikes Vault with ACF editable carousel and service cards.
+Version: 1.0
+Text Domain: allbikesvault
+*/
+
+body { margin:0; font-family:Arial,sans-serif; background:#f8f9fa; color:#222; }
+.site-header { background:#111; color:#fff; padding:15px 0; }
+.site-header a { color:#fff; text-decoration:none; }
+.site-title { margin:0; font-size:28px; font-weight:bold; }
+.main-menu ul { list-style:none; margin:0; padding:0; }
+.main-menu li { display:inline-block; margin-left:20px; }
+.main-menu a { color:#fff; font-weight:600; }
+
+.carousel-item { height:540px; background-size:cover; background-position:center; position:relative; }
+.carousel-overlay { position:absolute; top:0; right:0; bottom:0; left:0; background:rgba(0,0,0,0.48); }
+.carousel-caption { bottom:32%; }
+.carousel-caption h2 { font-size:48px; font-weight:bold; }
+.carousel-caption p { font-size:20px; }
+
+.section-padding { padding:60px 0; }
+
+.service-card {
+    background:#fff;
+    margin-bottom:30px;
+    min-height:360px;
+    border-radius:8px;
+    overflow:hidden;
+    box-shadow:0 4px 18px rgba(0,0,0,0.1);
+}
+.service-card img { width:100%; height:180px; object-fit:cover; display:block; }
+.service-card-body { padding:24px 20px; text-align:center; }
+.service-card h3 { font-size:22px; margin-bottom:12px; }
+
+.about-image { width:100%; height:360px; object-fit:cover; border-radius:8px; }
+.cta-section { background:#111; color:#fff; padding:60px 0; text-align:center; }
+.site-footer { background:#222; color:#ccc; padding:25px 0; text-align:center; }
+
+@media (max-width:768px) {
+    .carousel-item { height:380px; }
+    .carousel-caption h2 { font-size:30px; }
+    .carousel-caption p { font-size:16px; }
+    .main-menu li { display:block; margin:8px 0; }
+}
